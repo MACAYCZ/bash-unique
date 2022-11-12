@@ -1,4 +1,4 @@
-# bash-unique - 1.0.0
+# bash-unique - 1.1.0
 Bash library for generating unique varible names, it is useful for complex data structures.
 
 ## Functions
