@@ -3,7 +3,7 @@ Bash library for generating unique varible names, it is useful for complex data 
 
 ## Functions
 ```
-# Outputs unique variable name, takes one argument (output variable)
+# Outputs unique variable name, takes two arguments (output variable, declare options)
 unique_new
 
 # Deletes the variable, takes one argument (variable name)
