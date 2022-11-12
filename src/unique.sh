@@ -8,7 +8,7 @@ unique_tst() {
 }
 
 unique_new() {
-    declare -g $_unique_prefix$_unique_current
+    declare -g$2 $_unique_prefix$_unique_current
     local -n _out=$1; _out=$_unique_prefix$_unique_current
 	while [[ $(unique_tst $_unique_prefix$_unique_current) == 1 ]]; do
 		_unique_current=$(( _unique_current + 1 ))
