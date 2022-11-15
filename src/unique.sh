@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 declare -r _unique_prefix_='_'
